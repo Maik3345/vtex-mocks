@@ -4,6 +4,8 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE: END -->
 
+[npm-link](https://www.npmjs.com/package/vtex-mocks)
+
 ## Configuration
 
 1. Import the library in your test with the name `vtex-mocks`:
