@@ -1,6 +1,6 @@
-# My App
+# VTEX Mocks
 
-> My app description
+> Description
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 
@@ -8,14 +8,8 @@
 
 ## Configuration
 
-1. Import the My app to your theme's dependencies in the `manifest.json` as shown below:
+1. Import the library in your test with the name `vtex-mocks`:
 
-```json
-"dependencies": {
-  "account.app": "0.x"
-}
+```js
+import { useOrderForm } from "vtex-mocks";
 ```
-
-## Table of Contents
-
-- [Example](docs/Example.md)
