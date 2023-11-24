@@ -6,10 +6,42 @@
 
 [npm-link](https://www.npmjs.com/package/vtex-mocks)
 
-## Configuration
+## Usage
 
-1. Import the library in your test with the name `vtex-mocks`:
+1. Install the package as a dev dependency:
 
-```js
-import { useOrderForm } from "vtex-mocks";
+```sh
+
+yarn add vtex-mocks --dev
+
 ```
+
+2. Add the command to setup the mocks:
+
+```json
+{
+  "scripts": {
+    "vtex-mocks": "vtex-mocks setup"
+  }
+}
+```
+
+3. Run the command:
+
+```sh
+
+yarn vtex-mocks
+
+```
+
+4. Add the command before the test command:
+
+```json
+{
+  "scripts": {
+    "test": "npm run vtex-mocks && jest"
+  }
+}
+```
+
+> The command will create the `__mocks__` folder if not exist and read the `package.json` devDependencies to generate the mocks in base of the used apps

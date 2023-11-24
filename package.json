@@ -26,7 +26,7 @@
     "dev": "tsc -w",
     "lint": "tsc --noEmit && eslint --ext js,jsx,ts,tsx .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
-    "prepublish": "npm run build && npm publish"
+    "postrelease": "npm run build && npm publish"
   },
   "dependencies": {
     "chalk": "~2.3.2",
