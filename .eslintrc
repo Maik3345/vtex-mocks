@@ -1,0 +1,7 @@
+{
+  "extends": "vtex-react",
+  "rules": {
+    "global-require": "off",
+    "import/no-nodejs-modules": "off"
+  }
+}
