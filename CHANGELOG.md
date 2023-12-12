@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.3] - 2023-12-12
+
+### Fixed
+
+- 🐛 fix the dist bundle when make the deploy, now delete the dist folder when make the build
+
 ## [1.2.2] - 2023-12-12
 
 ### Fixed

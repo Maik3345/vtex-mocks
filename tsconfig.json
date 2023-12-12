@@ -5,6 +5,7 @@
     "outDir": "dist",
     "module": "commonjs",
     "noUnusedLocals": false,
+    "declaration": true,
     "noUnusedParameters": false,
     "allowJs": true,
     "types": ["node"]

@@ -1,6 +1,6 @@
 {
   "name": "vtex-mocks",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A package to centralize all vtex mocks",
   "homepage": "https://github.com/Maik3345/vtex-mocks#readme",
   "repository": {
@@ -22,7 +22,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc -d",
+    "build": "rm -rf ./dist/ && tsc",
     "dev": "tsc -w",
     "lint": "tsc --noEmit && eslint --ext js,jsx,ts,tsx .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",

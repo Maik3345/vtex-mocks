@@ -27,7 +27,9 @@ export default async function importMocks() {
 
   const mocksFiles = await getFilesNamesInDirectory(
     path.join(__dirname, '../../dist/__mocks__/apps')
-  ) // Get all files in the mocks apps directory
+  )
+
+  // Get all files in the mocks apps directory
   renderTable({
     title: 'Available mocked apps: \n',
     emptyMessage: 'No apps found',
