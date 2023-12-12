@@ -7,7 +7,7 @@ const path = require('path')
 function setup() {
   const setupMocks = require(path.resolve(
     __dirname,
-    '../dist/scripts/setup-mocks'
+    '../dist/src/scripts/setup-mocks'
   )).default
   setupMocks()
 }
