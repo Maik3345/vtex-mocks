@@ -9,6 +9,6 @@
     "allowJs": true,
     "types": ["node"]
   },
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "__mocks__/**/*"],
   "exclude": ["node_modules"]
 }

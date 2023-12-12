@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.1] - 2023-12-12
+
+### Fixed
+
+- 🐛 add the folder `__mocks__` to the dist folder
+
 ## [1.2.0] - 2023-11-23
 
 ### Added
