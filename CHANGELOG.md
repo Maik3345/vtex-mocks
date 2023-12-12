@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.2] - 2023-12-12
+
+### Fixed
+
+- 🐛 fix the `vtex-mocks setup` command, change the location of the **mocks** to the dist folder when execute the command
+
 ## [1.2.1] - 2023-12-12
 
 ### Fixed
